@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    background-color:lightgray;
+}
+div{
+    background-color:blue;
+    margin:50px 800px 0px 800px;
+    padding:10px 10px;
+    text-align:center;
+}
+div a{
+    text-decoration:none;
+    font-size:30px;
+    color:#fff;
+}
+img{
+    display:none;
+    margin:20px 500px 0px 500px;
+}
+div:hover{
+    background-color:#000;
+}
+div:hover + img{
+    display:block;
+}

@@ -1,0 +1,25 @@
+body{
+    background:url(https://picsum.photos/800/600/) center/cover no-repeat;
+    margin:0px;
+}
+nav{
+    background-color: lightgray;
+    text-align:right;
+    padding: 10px 10px;
+    font-size:20px;
+    text-transform:uppercase;
+}
+ul li{
+    list-style-type:none;
+}
+li{
+    display: inline;
+    padding:0px 10px;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+}
+a:hover{
+    color:#000;
+}
